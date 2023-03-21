@@ -7,10 +7,22 @@
     tools:context=".MainActivity2">
 
     <Spinner
+        android:id="@+id/spnv"
         android:layout_width="412dp"
         android:layout_height="46dp"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="66dp"
-        android:id="@+id/spnv"
-        />
+        android:layout_marginTop="208dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autocom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:hint="Enter city name"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
